@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-7"></div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 frmdiv">
+                <form class="frmstyle">
+                    <h3 class="hstyle">Sign Into Account</h3>
+                    <img src="images/fimg.png" width="120px" height="120px" alt="mail img">
+                    <div style="margin-top:25px">
+                        <input id="email" type="teemailxt" name="email" class="instyle mailstyle" placeholder=" E-Mail">
+                    </div>
+                    <div style="margin-top:35px">
+                        <input id="password" type="password" name="password" class="instyle passwordstyle" placeholder=" Password">
+                    </div>
+                 <div class="row" style="padding-top: 30px;">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-1">
+                        <input type="checkbox" class="largerCheckbox">
+                    </div>
+                    <div class="col-lg-6 pstyle">
+                        <p class="constyle"> Keep Me Logged In</p> 
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div style="margin-bottom: 20px;">
+                        <button type="button" class="btn btstyle" onclick="myfunction()">Go!</button>
+                    </div>
+                    <p class="lpstyle" id="fp" onclick="pfunction()">Forgot Password</p>
+                 </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
